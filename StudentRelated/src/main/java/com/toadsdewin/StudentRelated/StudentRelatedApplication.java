@@ -1,12 +1,13 @@
-package com.toadsdewin.practiceOne;
+package com.toadsdewin.StudentRelated;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PracticeOneApplication {
+public class StudentRelatedApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PracticeOneApplication.class, args);
+		SpringApplication.run(StudentRelatedApplication.class, args);
 	}
 
 }
