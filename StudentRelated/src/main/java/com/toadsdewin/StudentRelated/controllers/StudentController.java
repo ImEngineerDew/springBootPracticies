@@ -10,7 +10,6 @@ import java.util.ArrayList;
 @RequestMapping("/student")
 public class StudentController
 {
-
     @Autowired
     StudentService studentService;
 
@@ -20,6 +19,4 @@ public class StudentController
     {
         return studentService.getStudent();
     }
-
-
 }
