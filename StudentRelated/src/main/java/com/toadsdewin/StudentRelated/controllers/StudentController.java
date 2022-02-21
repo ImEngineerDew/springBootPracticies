@@ -19,4 +19,17 @@ public class StudentController
     {
         return studentService.getStudent();
     }
+
+    @PostMapping
+    public StudentModel setStudent(@RequestBody StudentModel student)
+    {
+        return studentService.setStudent(student);
+    }
+
+    @DeleteMapping("/student/{id}")
+    public void deleteStudent (@PathVariable Long id)
+    {
+
+    }
+
 }
