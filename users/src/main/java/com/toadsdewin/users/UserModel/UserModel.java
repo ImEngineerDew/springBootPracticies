@@ -1,5 +1,4 @@
 package com.toadsdewin.users.UserModel;
-import javax.annotation.Generated;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
